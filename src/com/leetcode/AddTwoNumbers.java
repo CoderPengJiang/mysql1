@@ -1,21 +1,17 @@
 package com.leetcode;
+
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
 public class AddTwoNumbers {
     public static void main(String[] args) {
-        System.out.println("hello");
-        int[] arr = {1, 2, 3, 4, 6, 7, 9, 90, 100, 123, 200, 300, 400, 600, 100000, 999999};
-        int target = 1000000;
-        long startTime = System.nanoTime();
-        Solution sl = new Solution();
-        int[] DaAn = sl.towSum(arr, target);
-        long endTime = System.nanoTime();
-        System.out.println(Arrays.toString(DaAn) + "测试的时间为" + (endTime - startTime) + "ns");
+        Solution1 sl = new Solution1();
+        int n = 5;
+        System.out.println(sl.numPrimeArrangements(5));
     }
-}
-//
+
+    //
 //class Solution {
 //    public int[] towSum(int[] nums, int target) {
 //        Map<Integer, Integer> map = new HashMap<>();
@@ -32,3 +28,31 @@ public class AddTwoNumbers {
 //    }
 //
 //}
+    class Solution1 {
+        public int numPrimeArrangements(int n) {
+            int zhishuNum = 0;
+            for (int i = 2; i <= n; i++) {
+                if (n == 2 || n == 3) {
+                    zhishuNum++;
+                } else {
+                    int a = (int) Math.sqr(i);
+                    for (int j = 2; j <= a; j++) {
+                        if (i % j != 0) {
+                            zhishuNum++;
+                        }
+                    }
+                }
+            }
+            int feizhiNum = n - zhishuNum;
+            int feiHe = 1;
+            int zhiHe = 1;
+            for (int w = 1; w <= feizhiNum; w++) {
+                feiHe = feiHe * w;
+            }
+            for (int h = 1; h <= zhishuNum; h++) {
+                zhiHe = feiHe * h;
+            }
+            return feiHe * zhiHe % (10 ^ 9 + 7);
+        }
+    }
+}
