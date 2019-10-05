@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class BinarySearch {
     public static void main(String[] args) {
         int[] searchArr=new int[]{1,2,3,4,5,6,7,8,9,234};
-        int searchValue=1;
+        int searchValue=5;
         BinarySearchLei bs=new BinarySearchLei();
         int a=bs.binarysearcglei(searchArr,searchValue);
         System.out.println(a);
