@@ -4,8 +4,8 @@ import java.awt.*;
 
 public class RemoveNthFromEnd {
     public static void main(String[] args) {
-        ListNode ln = new ListNode(0);
-        System.out.println(ln);
+        // ListNode ln = new ListNode(0);
+        // System.out.println(ln);
         List ls = new List();
         //定义6个链表结点
         ListNode l1 = new ListNode(1);
@@ -13,7 +13,7 @@ public class RemoveNthFromEnd {
         ListNode l3 = new ListNode(5);
         ListNode l4 = new ListNode(7);
         ListNode l5 = new ListNode(8);
-        ListNode l6 = new ListNode(10);
+        ListNode l6 = new ListNode(9);
         //在ls中添加结点
         ls.addListNode(l1);
         ls.addListNode(l2);
@@ -21,9 +21,12 @@ public class RemoveNthFromEnd {
         ls.addListNode(l4);
         ls.addListNode(l5);
         ls.addListNode(l6);
-        //打印显示结点
+       // 打印显示结点
         ls.showListNode();
-        //测试打印输出链表的倒数第n个结点
+        System.out.println();
+        //测试打印删除链表的倒数第n个结点，并且输出
+        ls.removeNthFromEnd(6);
+        ls.showListNode();
     }
 }
 
@@ -63,28 +66,27 @@ class List {
     }
 
     /**
-     * @Description: 求解链表的倒数第n个值
+     * @Description: 利用双指针删除链表的第n个结点
      * @Param: [head, n]
      * @return: com.leetcode.ListNode
      * @Author: Mr.Jiang
      * @Date: 2019/10/9
      */
-    public ListNode removeNthFromEnd(ListNode head, int n) {
-        ListNode front=head;
-        ListNode after=head;
-        for (int i=0;i<n-1;i++){
-            after=after.next;
+    public void removeNthFromEnd(int n) {
+        ListNode front = head;
+        ListNode after = head;
+        for (int i = 0; i < n - 1; i++) {
+            after = after.next;
         }
-        if (head.next==null){
-            return head;
+        if (head.next == null) {
+            System.out.print("此链表为空链表");
         }
-        after=after.next;
-        while (after.next!=null){
-            after=after.next;
-            front=front.next;
+        after = after.next;
+        while (after.next != null) {
+            after = after.next;
+            front = front.next;
         }
-        front.next=front.next.next;
-        return head;
+        front.next = front.next.next;
     }
 }
 
