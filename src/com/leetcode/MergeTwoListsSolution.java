@@ -25,15 +25,13 @@ public class MergeTwoListsSolution {
         node_1.next = node_2;
         node_2.next = node_3;
         MergeSolution ms = new MergeSolution();
+        ms.addValueLast(node, 13);
         ms.showMergeTwoList(node);
         System.out.println();
         ms.showMergeTwoList(node_);
         System.out.println();
         NodeL nl = ms.mergeTwoLists(node, node_);
         ms.showMergeTwoList(nl);
-        ms.addValueLast(node,100);
-        System.out.println();
-        ms.showMergeTwoList(node);
     }
 }
 
@@ -87,20 +85,16 @@ class MergeSolution {
      * @Author: Mr.Jiang
      * @Date: 2019/10/11
      */
-    public NodeL addValueLast(NodeL l, int value) {
-        NodeL head=new NodeL(-1);
-        head.next=l;
+    public void addValueLast(NodeL l, int value) {
         NodeL addnode=new NodeL(value);
-        addnode=head;
-        while (true) {
-            if (addnode.next == null) {
-                addnode.next=addnode;
-                break;
-            } else {
-               addnode = addnode.next;
-            }
+        NodeL temp=l;
+        while (temp.next != null) {
+
+           temp = temp.next;
+
         }
-        return l;
+
+        temp.next =addnode;
     }
 }
 
