@@ -4,5 +4,15 @@
     <excludeFromCompile>
       <file url="file://$PROJECT_DIR$/src/com/leetcode/AddTwoNumbers.java" />
     </excludeFromCompile>
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="blog" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
