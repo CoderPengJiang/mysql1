@@ -7,10 +7,61 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b2bdb3d-ddc3-411e-8cdf-8bc2a76c80eb" name="默认" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/CoderJiang.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/SeqTraBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mysql1/zuoshengalgorith/StackHeapOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mysql1/zuoshengalgorith/StackHeapOrder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zuoshengalgorith/StackHeapOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zuoshengalgorith/StackHeapOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DataSructure and Algorithm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructureTest/com/Aliyunketang/ChangJianLei/RuntimeDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructureTest/com/Aliyunketang/Computer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructureTest/com/Aliyunketang/Consumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructureTest/com/Aliyunketang/MyThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructureTest/com/Aliyunketang/Producer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructureTest/com/Aliyunketang/Resource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructureTest/com/Aliyunketang/ThreadDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructureTest/com/Aliyunketang/ThreadDemoDianNao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructureTest/com/datastructure/tree/BinarySearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructureTest/com/datastructure/tree/BinarySearchLei.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructureTest/com/leetcode/BalancedStringSplit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructureTest/com/leetcode/GenerateParenthesis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructureTest/com/leetcode/HuiWenDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructureTest/com/leetcode/LengthOfLongestSubstring.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructureTest/com/leetcode/LengthOfLongestSubstringDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructureTest/com/leetcode/MergeSolution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructureTest/com/leetcode/MergeTwoListsSolution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructureTest/com/leetcode/NodeL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructureTest/com/leetcode/ReverseInt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructureTest/com/leetcode/ReverseIntDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructureTest/com/leetcode/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructureTest/com/leetcode/Test3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructureTest/com/leetcode/ValidBrakets.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructureTest/com/leetcode/ValidBraketsSolution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysql1/META-INF/mysql1.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysql1/com/Aliyunketang/ChangJianLei/RuntimeDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysql1/com/Aliyunketang/Computer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysql1/com/Aliyunketang/Consumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysql1/com/Aliyunketang/MyThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysql1/com/Aliyunketang/Producer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysql1/com/Aliyunketang/Resource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysql1/com/Aliyunketang/ThreadDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysql1/com/Aliyunketang/ThreadDemoDianNao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysql1/com/datastructure/tree/BinarySearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysql1/com/datastructure/tree/BinarySearchLei.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysql1/com/leetcode/BalancedStringSplit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysql1/com/leetcode/GenerateParenthesis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysql1/com/leetcode/HuiWenDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysql1/com/leetcode/LengthOfLongestSubstring.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysql1/com/leetcode/LengthOfLongestSubstringDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysql1/com/leetcode/MergeSolution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysql1/com/leetcode/MergeTwoListsSolution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysql1/com/leetcode/NodeL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysql1/com/leetcode/ReverseInt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysql1/com/leetcode/ReverseIntDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysql1/com/leetcode/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysql1/com/leetcode/Test3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysql1/com/leetcode/ValidBrakets.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysql1/com/leetcode/ValidBraketsSolution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mysql1/zuoshengalgorith/StackHeapOrder.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,6 +117,15 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Program Files\apache-maven-3.6.2\repository" />
+        <option name="mavenHome" value="D:/Program Files/apache-maven-3.6.2" />
+        <option name="userSettingsFile" value="D:\Program Files\apache-maven-3.6.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1SNbns2XeTg5SoqxNTGZIT1BNPl" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -93,11 +153,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -116,20 +176,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StackHeapOrder">
-    <configuration name="BalancedStringSplit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.BalancedStringSplit" />
-      <module name="DataStructureTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SeqTraBinaryTree">
     <configuration name="BinarySearch" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.datastructure.tree.BinarySearch" />
       <module name="DataStructureTest" />
@@ -156,9 +203,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SeqTraBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.SeqTraBinaryTree" />
+      <module name="DataSructure and Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StackHeapOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="zuoshengalgorith.StackHeapOrder" />
-      <module name="mysql1" />
+      <module name="DataSructure and Algorithm" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="zuoshengalgorith.*" />
@@ -171,7 +231,7 @@
     </configuration>
     <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leetcode.Test3" />
-      <module name="mysql1" />
+      <module name="DataSructure and Algorithm" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.leetcode.*" />
@@ -197,7 +257,7 @@
     </configuration>
     <configuration name="ValidBrakets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leetcode.ValidBrakets" />
-      <module name="mysql1" />
+      <module name="DataSructure and Algorithm" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.leetcode.*" />
@@ -345,20 +405,20 @@
       <item itemvalue="Application.BinarySearch" />
       <item itemvalue="Application.ThreadDemoDianNao" />
       <item itemvalue="Application.ValidBrakets" />
-      <item itemvalue="Application.BalancedStringSplit" />
       <item itemvalue="Application.GenerateParenthesis" />
       <item itemvalue="Application.Test3" />
       <item itemvalue="Application.StackHeapOrder" />
+      <item itemvalue="Application.SeqTraBinaryTree" />
       <item itemvalue="Spring Boot.BlogApplication" />
       <item itemvalue="Tomcat Server.Tomcat9" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SeqTraBinaryTree" />
         <item itemvalue="Application.StackHeapOrder" />
         <item itemvalue="Application.Test3" />
         <item itemvalue="Application.ValidBrakets" />
         <item itemvalue="Application.GenerateParenthesis" />
-        <item itemvalue="Application.BalancedStringSplit" />
       </list>
     </recent_temporary>
   </component>
@@ -395,7 +455,10 @@
       <workItem from="1571064369006" duration="24000" />
       <workItem from="1571407174975" duration="3031000" />
       <workItem from="1571487503199" duration="2000" />
-      <workItem from="1571487637642" duration="6538000" />
+      <workItem from="1571487637642" duration="8273000" />
+      <workItem from="1572144237912" duration="1355000" />
+      <workItem from="1572175567261" duration="5571000" />
+      <workItem from="1572274424455" duration="2635000" />
     </task>
     <task id="LOCAL-00001" summary="add something">
       <created>1570263462475</created>
@@ -417,9 +480,6 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="UnloadedModulesList">
-    <module name="blog" />
-  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -434,6 +494,10 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+      <path value="$PROJECT_DIR$/lagou-spider" />
+    </ignored-roots>
     <MESSAGE value="add something" />
     <MESSAGE value="默认" />
     <option name="LAST_COMMIT_MESSAGE" value="默认" />
